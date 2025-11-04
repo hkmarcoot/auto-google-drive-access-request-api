@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
-import { getSubsciption, getUserInfo } from "./lib/common";
+import { getSubsciption, getUserInfo } from "@/lib/_common";
 
 import Cors from "cors";
 
